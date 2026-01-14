@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://app.agentifyai.xyz">Live Demo</a> •
+  <a href="https://agentify-mantle.vercel.app">Live Demo</a> •
   <a href="#demo-video">Demo Video</a> •
   <a href="#features">Features</a> •
   <a href="#architecture">Architecture</a> •
@@ -451,7 +451,7 @@ Successfully staked 500 LEND. Current staking APR: 12.5%
 
 | Resource | Link |
 |----------|------|
-| **Live Demo** | [https://app.agentifyai.xyz](https://app.agentifyai.xyz) |
+| **Live Demo** | [https://agentify-mantle.vercel.app](https://agentify-mantle.vercel.app) |
 | **Demo Video** | [YouTube Link](https://youtube.com/watch?v=YOUR_VIDEO_ID) |
 | **GitHub** | [Teckas-Technologies/agentify-mantle](https://github.com/Teckas-Technologies/agentify-mantle) |
 | **Twitter** | [@agentifyxyz](https://x.com/agentifyxyz) |
