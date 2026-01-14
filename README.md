@@ -10,7 +10,7 @@
 <h3 align="center">The AI-Powered DeFi Command Center for Mantle Network</h3>
 
 <p align="center">
-  <strong>Execute complex DeFi operations through natural language. Bridge, Lend, Borrow, Stake, and Swap—all with simple conversational commands.</strong>
+  <strong>Execute complex DeFi operations through natural language. Bridge, Lend, Borrow, Stake, and Swap - all with simple conversational commands.</strong>
 </p>
 
 <p align="center">
@@ -248,40 +248,9 @@ V3 Factory:          0x530d2766D1988CC1c000C8b7d00334c14B69AD71
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        AGENTIFY AI                               │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │   Chat UI    │───▶│  AI Engine   │───▶│   Executor   │       │
-│  │  (Next.js)   │    │  (OpenAI)    │    │   (Hooks)    │       │
-│  └──────────────┘    └──────────────┘    └──────────────┘       │
-│         │                   │                   │                │
-│         ▼                   ▼                   ▼                │
-│  ┌──────────────────────────────────────────────────────────────┐
-│  │                  Protocol Hooks Layer                        │
-│  ├──────────────┬──────────────┬──────────────┬─────────────────┤
-│  │ useMantleHook│ useLendleHook│useFusionXHook│  Other Hooks    │
-│  │   (Bridge)   │  (Lending)   │   (DEX)      │                 │
-│  └──────────────┴──────────────┴──────────────┴─────────────────┘
-│                              │                                   │
-│                              ▼                                   │
-│  ┌──────────────────────────────────────────────────────────────┐
-│  │              Blockchain Interaction Layer                     │
-│  │         wagmi + viem + ethers.js + Privy Auth                 │
-│  └──────────────────────────────────────────────────────────────┘
-│                              │                                   │
-└──────────────────────────────┼───────────────────────────────────┘
-                               │
-                               ▼
-        ┌──────────────────────────────────────────────┐
-        │              MANTLE NETWORK                   │
-        ├──────────────┬──────────────┬────────────────┤
-        │    Bridge    │    Lendle    │    FusionX     │
-        │   Contracts  │   Protocol   │      DEX       │
-        └──────────────┴──────────────┴────────────────┘
-```
+<p align="center">
+  <img src="./public/images/agentify-mantle-architecture.png" alt="Agentify Architecture" width="800"/>
+</p>
 
 ### Tech Stack
 
@@ -301,7 +270,7 @@ V3 Factory:          0x530d2766D1988CC1c000C8b7d00334c14B69AD71
 ## Project Structure
 
 ```
-agentify-new-ui/
+agentify-mantle/
 ├── src/
 │   ├── app/                      # Next.js App Router
 │   │   ├── playground/           # AI Agent Playground
@@ -344,10 +313,10 @@ agentify-new-ui/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Teckas-Technologies/agentify-new-ui.git
+git clone https://github.com/Teckas-Technologies/agentify-mantle.git
 
 # Navigate to project
-cd agentify-new-ui
+cd agentify-mantle
 
 # Install dependencies
 pnpm install
@@ -484,7 +453,7 @@ Successfully staked 500 LEND. Current staking APR: 12.5%
 |----------|------|
 | **Live Demo** | [https://app.agentifyai.xyz](https://app.agentifyai.xyz) |
 | **Demo Video** | [YouTube Link](https://youtube.com/watch?v=YOUR_VIDEO_ID) |
-| **GitHub** | [Teckas-Technologies/agentify-new-ui](https://github.com/Teckas-Technologies/agentify-new-ui) |
+| **GitHub** | [Teckas-Technologies/agentify-mantle](https://github.com/Teckas-Technologies/agentify-mantle) |
 | **Twitter** | [@agentifyxyz](https://x.com/agentifyxyz) |
 | **Organization** | [Teckas Technologies](https://www.teckastechnologies.com/) |
 
