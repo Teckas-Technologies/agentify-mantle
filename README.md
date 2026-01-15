@@ -10,62 +10,134 @@
 <h3 align="center">The AI-Powered DeFi Command Center for Mantle Network</h3>
 
 <p align="center">
-  <strong>Execute complex DeFi operations through natural language. Bridge, Lend, Borrow, Stake, and Swap - all with simple conversational commands.</strong>
-</p>
-
-<p align="center">
   <a href="https://agentify-mantle.vercel.app">Live Demo</a> •
   <a href="#demo-video">Demo Video</a> •
   <a href="#features">Features</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#mantle-integrations">Mantle Integrations</a>
+  <a href="#try-it-yourself">Try It Yourself</a> •
+  <a href="#mantle-integrations">Integrations</a>
 </p>
 
 ---
 
-## The Problem
+## TL;DR (For Judges)
 
-DeFi on Mantle Network is powerful, but complex. Users face:
+**Agentify AI** is a production-ready, mainnet-deployed AI agent that lets users **bridge, lend, borrow, stake, swap, wrap/unwrap tokens, and add liquidity** on Mantle using natural language.
 
-- **Fragmented Experience**: Jumping between multiple dApps for bridge, lending, and swaps
-- **Complex Interfaces**: Technical UIs that intimidate newcomers
-- **High Learning Curve**: Understanding protocols, gas optimization, and transaction flows
-- **No Unified Dashboard**: Difficulty tracking activities across protocols
+### Why It Wins:
 
-**Result**: Billions in TVL remain underutilized because DeFi is too hard for most users.
-
----
-
-## The Solution: Agentify AI
-
-Agentify transforms DeFi interaction through **AI-powered natural language commands**. Instead of navigating complex UIs, users simply describe what they want:
+| | |
+|---|---|
+| **Built Natively on Mantle Mainnet** | Not a testnet demo - real contracts, real assets, real users |
+| **Deep Protocol Integration** | Mantle Bridge + Lendle + FusionX DEX fully orchestrated |
+| **AI-Driven Multi-Step Execution** | Intent → Validation → Execution → Recovery loop |
+| **Conversational DeFi UX** | Replace complex dashboards with simple dialogue |
+| **7 Core DeFi Operations** | Bridge, Wrap/Unwrap, Lend, Borrow, Stake, Swap, Add Liquidity |
 
 ```
-"Bridge 100 MNT from Ethereum to Mantle"
-"Deposit 500 USDC into Lendle and earn yield"
-"Swap 1 ETH for MNT on FusionX"
-"Stake my LEND tokens"
+"I want to lend 0.0005 ETH in Mantle"
 ```
 
-The AI agent understands intent, validates parameters, and executes multi-step blockchain transactions seamlessly.
+One command. AI handles approval + transaction automatically. Zero UI complexity.
+
+**[Try Live Demo →](https://agentify-mantle.vercel.app)**
 
 ---
 
-## Demo Video
+## Why Mantle?
 
-<p align="center">
-  <a href="https://youtube.com/watch?v=YOUR_VIDEO_ID">
-    <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo"/>
-  </a>
-</p>
+Agentify AI is built **specifically for Mantle** because:
 
-**[Click to watch 4-minute demo →](https://youtube.com/watch?v=YOUR_VIDEO_ID)**
+| Mantle Advantage | How Agentify Leverages It |
+|------------------|---------------------------|
+| **Ultra-Low Gas Fees** | Makes multi-step AI-driven transactions economically viable |
+| **Fast Finality** | Enables real-time conversational DeFi UX |
+| **Native Protocols** | Deep composability with Lendle, FusionX, and Mantle Bridge |
+| **Modular Architecture** | Aligns perfectly with agent-based execution patterns |
+| **Growing Ecosystem** | Positions Agentify as the gateway for new users |
+
+**Agentify turns Mantle into the first truly conversational DeFi ecosystem.**
 
 ---
 
-## Features
+## What's Novel Here?
 
-### AI-Powered Agent System
+This isn't just protocol integration. Agentify introduces:
+
+| Innovation | Description |
+|------------|-------------|
+| **AI-Driven Transaction Orchestration** | Multi-step DeFi operations from single natural language commands |
+| **Intent → Validation → Execution Loop** | Smart validation before every on-chain action |
+| **Conversation-Aware Actions** | Follow-ups, partial commands, context memory across sessions |
+| **Agent Abstraction Layer** | Unified interface over Bridge + Lending + DEX protocols |
+| **Error Recovery System** | Intelligent failure handling with user-friendly explanations |
+| **Dashboard Without Dashboards** | Complete DeFi UX through dialogue, not complex UIs |
+
+**We're not building another DeFi frontend. We're building the interface layer that makes DeFi accessible to everyone.**
+
+---
+
+## Try It Yourself
+
+### Quick Test Commands (Copy & Paste)
+
+Open [agentify-mantle.vercel.app](https://agentify-mantle.vercel.app), connect your wallet, and try:
+
+**Bridge & Wrap**
+```
+I want to bridge 0.001 ETH from Ethereum to Mantle
+Can you wrap 1 MNT in Mantle?
+Show my MNT balance
+```
+
+**Lendle - Lend & Borrow**
+```
+I want to lend 0.0005 ETH in Mantle
+Can I borrow 0.5 MNT?
+I want to repay 0.5 MNT
+Show my Lendle data
+Withdraw my 0.0003 ETH from Lendle
+```
+
+**Lendle - Staking**
+```
+Show my Lendle Rewards
+I want to stake 60 LEND in Mantle
+Unstake 50 LEND
+Show my staking rewards
+```
+
+**FusionX - Swaps**
+```
+Swap 0.0003 ETH to USDT in Mantle using FusionX
+Swap 1 USDT to USDC in Mantle using FusionX
+```
+
+**FusionX - Liquidity**
+```
+I want to add liquidity to WMNT and WETH pool in Mantle (0.5 WMNT and 0.0002 WETH)
+Show my liquidity balance for WMNT WETH
+Close my all liquidity positions
+```
+
+Each command triggers multi-step execution: AI handles token approvals + transactions automatically.
+
+---
+
+## Core Features
+
+### 7 DeFi Operations, One Interface
+
+| Operation | Protocol | What It Does |
+|-----------|----------|--------------|
+| **Bridge** | Mantle Bridge | Transfer assets between Ethereum ↔ Mantle |
+| **Wrap/Unwrap** | Mantle Bridge | Convert MNT ↔ WMNT for DeFi compatibility |
+| **Lend** | Lendle | Deposit assets to earn yield |
+| **Borrow** | Lendle | Take loans against your collateral |
+| **Stake** | Lendle | Stake LEND tokens for protocol rewards |
+| **Swap** | FusionX DEX | Exchange tokens with optimal routing |
+| **Add Liquidity** | FusionX DEX | Provide liquidity to pools and earn fees |
+
+### AI Agent Capabilities
 
 | Feature | Description |
 |---------|-------------|
@@ -74,27 +146,14 @@ The AI agent understands intent, validates parameters, and executes multi-step b
 | **Real-Time Feedback** | Live transaction status updates and confirmations |
 | **Error Recovery** | Intelligent error handling with user-friendly explanations |
 | **Context Awareness** | Remembers conversation history for follow-up commands |
+| **Balance Validation** | Checks balances before executing to prevent failed transactions |
 
 ### Comprehensive Dashboard
 
 - **Agent Usage Analytics**: Visual charts of command distribution
 - **Transaction History**: Complete activity log with status tracking
 - **Gas Spend Monitoring**: Track transaction costs over time
-- **Chain Activity Breakdown**: Per-chain statistics and insights
-- **Portfolio Overview**: Unified view of all positions
-
-### Multi-Chain Architecture
-
-Agentify supports seamless operations across:
-
-| Chain | Status | Features |
-|-------|--------|----------|
-| **Mantle** | Primary | Bridge, Lendle, FusionX |
-| Ethereum | Supported | Bridge source chain |
-| Arbitrum | Supported | Cross-chain swaps |
-| Polygon | Supported | Cross-chain swaps |
-| Base | Supported | Cross-chain swaps |
-| Optimism | Supported | Cross-chain swaps |
+- **Portfolio Overview**: Unified view of all DeFi positions
 
 ---
 
@@ -102,54 +161,30 @@ Agentify supports seamless operations across:
 
 ### 1. Mantle Bridge - Cross-Chain Asset Transfer
 
-<table>
-<tr>
-<td width="50%">
-
 **Deposit (L1 → Mantle)**
 - Bridge MNT from Ethereum to Mantle
 - Bridge ETH to Mantle (wraps to WETH)
 - Bridge ERC-20 tokens
-- Bridge NFTs (ERC-721)
 
 **Withdraw (Mantle → L1)**
 - Initiate withdrawal
 - Prove withdrawal after challenge period
 - Finalize and claim on L1
 
-</td>
-<td width="50%">
-
-**Smart Contract Addresses**
-```
-L1StandardBridge:
-0x95fC37A27a2f68e3A647CDc081F0A89bb47c3012
-
-L1CrossDomainMessenger:
-0x676A795fe6E43C17c668de16730c3F690FEB7120
-
-OptimismPortal:
-0xc54cb22944F2bE476E02dECfCD7e3E7d3e15A8Fb
-```
-
-</td>
-</tr>
-</table>
+**Wrap/Unwrap**
+- Convert native MNT to WMNT for DeFi protocols
+- Unwrap WMNT back to MNT
 
 **Example Commands:**
 ```
-"Bridge 100 MNT to Mantle"
-"Withdraw 50 ETH from Mantle to Ethereum"
-"Check my pending bridge withdrawals"
+"I want to bridge 0.001 ETH from Ethereum to Mantle"
+"Can you wrap 1 MNT in Mantle?"
+"Show my MNT balance"
 ```
 
 ---
 
 ### 2. Lendle Protocol - Lending & Borrowing
-
-<table>
-<tr>
-<td width="50%">
 
 **Lending Operations**
 - **Deposit**: Supply assets to earn yield
@@ -162,87 +197,55 @@ OptimismPortal:
 - Unstake and claim rewards
 - View staking APY
 
-</td>
-<td width="50%">
-
-**Supported Assets**
-| Asset | Deposit | Borrow |
-|-------|---------|--------|
-| WMNT | ✅ | ✅ |
-| WETH | ✅ | ✅ |
-| USDC | ✅ | ✅ |
-| USDT | ✅ | ✅ |
-| mETH | ✅ | ✅ |
-| WBTC | ✅ | ✅ |
-
-</td>
-</tr>
-</table>
-
-**Smart Contract Addresses**
-```
-LendingPool:           0xCFa5aE7c2CE8Fadc6426C1ff872cA45378Fb7cF3
-ProtocolDataProvider:  0x552b9e4bae485C4B7F540777d7D25614CdB84773
-ChefIncentives:        0x79e2fd1c484EB9EE45001A98Ce31F28918F27C41
-MultiFeeDistribution:  0x76F0f2e15b6dd854BE5e81d5E22a8Cf7a8cC1503
-```
+**Supported Assets**: WMNT, WETH, USDC, USDT, mETH, WBTC
 
 **Example Commands:**
 ```
-"Deposit 1000 USDC into Lendle"
-"Borrow 500 USDT against my collateral"
-"What's my current health factor?"
-"Stake 100 LEND tokens"
+"I want to lend 0.0005 ETH in Mantle"
+"Can I borrow 0.5 MNT?"
+"I want to repay 0.5 MNT"
+"Show my Lendle data"
+"Withdraw my 0.0003 ETH from Lendle"
+"I want to stake 60 LEND in Mantle"
+"Unstake 50 LEND"
+"Show my staking rewards"
 ```
 
 ---
 
-### 3. FusionX DEX - Token Swaps
-
-<table>
-<tr>
-<td width="50%">
+### 3. FusionX DEX - Token Swaps & Liquidity
 
 **Swap Features**
-- **V2 Swaps**: Classic AMM with constant product
-- **V3 Swaps**: Concentrated liquidity for better rates
-- **Smart Routing**: Optimal path finding
-- **Slippage Protection**: Configurable tolerance
+- V2 & V3 AMM Swaps
+- Smart routing for optimal rates
+- Configurable slippage protection
 
-**Liquidity**
-- Add liquidity to pools
+**Liquidity Provision**
+- Add liquidity to V2 and V3 pools
 - Remove liquidity positions
 - View LP token balances
-
-</td>
-<td width="50%">
-
-**Fee Tiers (V3)**
-| Tier | Best For |
-|------|----------|
-| 0.01% | Stable pairs |
-| 0.05% | Correlated assets |
-| 0.30% | Standard pairs |
-| 1.00% | Exotic pairs |
-
-</td>
-</tr>
-</table>
-
-**Smart Contract Addresses**
-```
-V2 Router:           0xDd0840118bF9CCCc6d67b2944ddDfbdb995955FD
-V3 SwapRouter:       0x5989FB161568b9F133eDf5Cf6787f5597762797F
-V3 PositionManager:  0x5752F085206AB87d8a5EF6166779658ADD455774
-V3 Factory:          0x530d2766D1988CC1c000C8b7d00334c14B69AD71
-```
+- Multiple fee tiers (0.01%, 0.05%, 0.30%, 1.00%)
 
 **Example Commands:**
 ```
-"Swap 1 ETH for MNT"
-"Exchange 500 USDC for WETH with 0.5% slippage"
-"What's the best rate for 1000 MNT to USDC?"
+"Swap 0.0003 ETH to USDT in Mantle using FusionX"
+"Swap 1 USDT to USDC in Mantle using FusionX"
+"I want to add liquidity to WMNT and WETH pool in Mantle (0.5 WMNT and 0.0002 WETH)"
+"Show my liquidity balance for WMNT WETH"
+"Close my all liquidity positions"
 ```
+
+---
+
+## Demo Video
+
+<p align="center">
+  <a href="https://youtube.com/watch?v=YOUR_VIDEO_ID">
+    <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo"/>
+  </a>
+</p>
+
+**[Click to watch 4-minute demo →](https://youtube.com/watch?v=YOUR_VIDEO_ID)**
 
 ---
 
@@ -263,41 +266,93 @@ V3 Factory:          0x530d2766D1988CC1c000C8b7d00334c14B69AD71
 | **Authentication** | Privy (Multi-wallet + Social Login) |
 | **AI Engine** | OpenAI GPT-4 |
 | **Backend** | Python Flask (Agent Orchestration) |
-| **Analytics** | Chart.js, Recharts |
 
 ---
 
-## Project Structure
+## Usage Examples
+
+### Bridge Assets
 
 ```
-agentify-mantle/
-├── src/
-│   ├── app/                      # Next.js App Router
-│   │   ├── playground/           # AI Agent Playground
-│   │   ├── dashboard/            # Analytics Dashboard
-│   │   ├── mantle/               # Mantle Operations UI
-│   │   └── agents/               # Agent Discovery
-│   │
-│   ├── hooks/                    # Protocol Integration Hooks
-│   │   ├── useMantleHook.ts      # Bridge operations (61KB)
-│   │   ├── useLendleHook.ts      # Lending protocol (70KB)
-│   │   ├── useFusionXHook.ts     # DEX swaps (92KB)
-│   │   └── orchestratedAgentHook.tsx  # AI orchestration
-│   │
-│   ├── Components/               # UI Components
-│   │   ├── NewDesign/
-│   │   │   ├── playground/       # Chat interface
-│   │   │   ├── Dashboard/        # Analytics components
-│   │   │   └── Agents/           # Agent cards
-│   │   └── ui/                   # Radix primitives
-│   │
-│   ├── contexts/                 # Global State
-│   ├── types/                    # TypeScript Definitions
-│   └── utils/                    # Helpers & Constants
-│
-├── Documentation/                # Integration docs
-└── public/                       # Static assets
+User: "I want to bridge 0.001 ETH from Ethereum to Mantle"
+
+Agentify: I'll help you bridge 0.001 ETH to Mantle Network.
+
+✓ Checking ETH balance on Ethereum... 0.5 ETH available
+✓ Estimating gas fees...
+✓ Initiating bridge transaction...
+✓ Transaction submitted: 0x1234...abcd
+
+Your 0.001 ETH will arrive on Mantle in ~10-15 minutes.
 ```
+
+### Lend on Lendle
+
+```
+User: "I want to lend 0.0005 ETH in Mantle"
+
+Agentify: I'll deposit your ETH into Lendle Protocol.
+
+✓ Checking ETH balance... 0.01 ETH available
+✓ Approving ETH for Lendle... (Step 1/2)
+✓ Transaction confirmed!
+✓ Depositing 0.0005 ETH... (Step 2/2)
+✓ Transaction confirmed: 0xabcd...1234
+
+Successfully deposited 0.0005 ETH into Lendle!
+```
+
+### Swap on FusionX
+
+```
+User: "Swap 0.0003 ETH to USDT in Mantle using FusionX"
+
+Agentify: I'll swap your ETH for USDT on FusionX.
+
+✓ Checking ETH balance... 0.01 ETH available
+✓ Finding best rate...
+✓ Approving ETH... (Step 1/2)
+✓ Executing swap... (Step 2/2)
+✓ Transaction confirmed!
+
+Swapped 0.0003 ETH → 0.85 USDT
+```
+
+### Add Liquidity
+
+```
+User: "I want to add liquidity to WMNT and WETH pool in Mantle (0.5 WMNT and 0.0002 WETH)"
+
+Agentify: I'll add liquidity to the WMNT/WETH pool.
+
+✓ Checking balances...
+✓ Approving WMNT... (Step 1/3)
+✓ Approving WETH... (Step 2/3)
+✓ Adding liquidity... (Step 3/3)
+✓ Transaction confirmed!
+
+Successfully added liquidity to WMNT/WETH pool.
+```
+
+---
+
+## Roadmap
+
+| Phase | Status | Milestones |
+|-------|--------|------------|
+| **Phase 1: Foundation** | ✅ Complete | Mantle mainnet deployment, Core AI agent, Bridge + Lendle + FusionX integration |
+| **Phase 2: Enhancement** | In Progress | Yield optimization strategies, Portfolio analytics, Advanced risk management |
+
+---
+
+## Team
+
+**Agentify AI** is built by [Teckas Technologies](https://www.teckastechnologies.com/), a team with deep expertise in:
+
+- Web3 infrastructure & DeFi protocol integrations
+- AI agent systems & natural language processing
+- Production-grade fintech applications
+- Cross-chain interoperability solutions
 
 ---
 
@@ -314,8 +369,6 @@ agentify-mantle/
 ```bash
 # Clone the repository
 git clone https://github.com/Teckas-Technologies/agentify-mantle.git
-
-# Navigate to project
 cd agentify-mantle
 
 # Install dependencies
@@ -323,127 +376,12 @@ pnpm install
 
 # Set up environment variables
 cp .env.example .env.local
-```
 
-### Environment Variables
-
-```env
-NEXT_PUBLIC_PRIVY_APP_ID=your_privy_app_id
-NEXT_PUBLIC_PYTHON_SERVER_URL=your_backend_url
-NEXT_PUBLIC_CHANGENOW_API_KEY=your_changenow_key
-```
-
-### Run Development Server
-
-```bash
+# Run development server
 pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to see the app.
-
-### Build for Production
-
-```bash
-pnpm build
-pnpm start
-```
-
----
-
-## Usage Examples
-
-### Bridge Assets
-
-```
-User: "Bridge 100 MNT from Ethereum to Mantle"
-
-Agentify: I'll help you bridge 100 MNT to Mantle Network.
-
-✓ Checking MNT balance on Ethereum... 250 MNT available
-✓ Estimating gas fees... ~0.003 ETH
-✓ Initiating bridge transaction...
-✓ Transaction submitted: 0x1234...abcd
-
-Your 100 MNT will arrive on Mantle in ~10-15 minutes.
-```
-
-### Lend on Lendle
-
-```
-User: "Deposit 1000 USDC into Lendle and show me the APY"
-
-Agentify: I'll deposit your USDC into Lendle Protocol.
-
-✓ Current USDC Supply APY: 4.2%
-✓ Approving USDC for Lendle...
-✓ Depositing 1000 USDC...
-✓ Transaction confirmed: 0xabcd...1234
-
-You're now earning 4.2% APY on 1000 USDC!
-```
-
-### Swap on FusionX
-
-```
-User: "Swap half my ETH for MNT"
-
-Agentify: Let me check your balance and find the best rate.
-
-✓ Your ETH balance: 2.5 ETH
-✓ Swapping 1.25 ETH for MNT
-✓ Best rate found: 1 ETH = 3,150 MNT
-✓ Expected output: ~3,937 MNT (0.5% slippage)
-✓ Transaction confirmed!
-
-Swapped 1.25 ETH → 3,921 MNT
-```
-
-### Stake LEND Tokens
-
-```
-User: "Stake all my LEND tokens"
-
-Agentify: I'll stake your LEND tokens for rewards.
-
-✓ Your LEND balance: 500 LEND
-✓ Approving LEND for staking...
-✓ Staking 500 LEND tokens...
-✓ Transaction confirmed!
-
-Successfully staked 500 LEND. Current staking APR: 12.5%
-```
-
----
-
-## Why Agentify?
-
-- **Deep Protocol Integration**: Native support for Lendle lending, FusionX swaps, and Mantle Bridge
-- **LLM-Powered Agent**: GPT-4 understands complex financial intents
-- **Three Native Protocols**: Bridge + Lendle + FusionX fully integrated. Mainnet Deployed: Production-ready, not just testnet demos
-- **Chat-First Interface**: No complex forms or confusing buttons. Real-Time Feedback: Users see every transaction step
-- **Accessible DeFi**: Opens Mantle ecosystem to non-technical users. Multi-Wallet Support: MetaMask, WalletConnect, Google, Phone
-
----
-
-## Roadmap
-
-| Phase | Milestone |
-|-------|-----------|
-| **Q1 2026** | Mantle mainnet launch ✅, Core agent features ✅ |
-| **Q2 2026** | Yield optimization strategies, Portfolio analytics |
-| **Q3 2026** | Mobile app, Advanced risk management |
-| **Q4 2026** | Multi-agent coordination, DAO governance |
-
----
-
-## Team
-
-| Member | Role | Background |
-|--------|------|------------|
-| **[Team Lead]** | Full Stack Developer | [Experience] |
-| **[Member 2]** | Smart Contract Engineer | [Experience] |
-| **[Member 3]** | AI/ML Engineer | [Experience] |
-| **[Member 4]** | Product & Design | [Experience] |
 
 ---
 
@@ -451,17 +389,50 @@ Successfully staked 500 LEND. Current staking APR: 12.5%
 
 | Resource | Link |
 |----------|------|
-| **Live Demo** | [https://agentify-mantle.vercel.app](https://agentify-mantle.vercel.app) |
-| **Demo Video** | [YouTube Link](https://youtube.com/watch?v=YOUR_VIDEO_ID) |
+| **Live Demo** | [agentify-mantle.vercel.app](https://agentify-mantle.vercel.app) |
+| **Demo Video** | [YouTube](https://youtube.com/watch?v=YOUR_VIDEO_ID) |
 | **GitHub** | [Teckas-Technologies/agentify-mantle](https://github.com/Teckas-Technologies/agentify-mantle) |
 | **Twitter** | [@agentifyxyz](https://x.com/agentifyxyz) |
 | **Organization** | [Teckas Technologies](https://www.teckastechnologies.com/) |
 
 ---
 
-## Compliance Declaration
+## Appendix: Smart Contract Addresses
 
-This project does not involve regulated assets or securities. All operations are conducted on public blockchain networks with full transparency. Users maintain complete custody of their assets at all times through their own wallets.
+<details>
+<summary><strong>Mantle Bridge Contracts</strong></summary>
+
+| Contract | Address |
+|----------|---------|
+| L1StandardBridge | `0x95fC37A27a2f68e3A647CDc081F0A89bb47c3012` |
+| L1CrossDomainMessenger | `0x676A795fe6E43C17c668de16730c3F690FEB7120` |
+| OptimismPortal | `0xc54cb22944F2bE476E02dECfCD7e3E7d3e15A8Fb` |
+
+</details>
+
+<details>
+<summary><strong>Lendle Protocol Contracts</strong></summary>
+
+| Contract | Address |
+|----------|---------|
+| LendingPool | `0xCFa5aE7c2CE8Fadc6426C1ff872cA45378Fb7cF3` |
+| ProtocolDataProvider | `0x552b9e4bae485C4B7F540777d7D25614CdB84773` |
+| ChefIncentives | `0x79e2fd1c484EB9EE45001A98Ce31F28918F27C41` |
+| MultiFeeDistribution | `0x76F0f2e15b6dd854BE5e81d5E22a8Cf7a8cC1503` |
+
+</details>
+
+<details>
+<summary><strong>FusionX DEX Contracts</strong></summary>
+
+| Contract | Address |
+|----------|---------|
+| V2 Router | `0xDd0840118bF9CCCc6d67b2944ddDfbdb995955FD` |
+| V3 SwapRouter | `0x5989FB161568b9F133eDf5Cf6787f5597762797F` |
+| V3 PositionManager | `0x5752F085206AB87d8a5EF6166779658ADD455774` |
+| V3 Factory | `0x530d2766D1988CC1c000C8b7d00334c14B69AD71` |
+
+</details>
 
 ---
 
@@ -472,7 +443,7 @@ MIT License © 2025 Agentify AI
 ---
 
 <p align="center">
-  <strong>Built with ❤️ for the Mantle Global Hackathon 2025</strong>
+  <strong>Built for the Mantle Global Hackathon 2025</strong>
 </p>
 
 <p align="center">
