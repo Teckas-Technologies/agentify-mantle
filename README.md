@@ -240,12 +240,12 @@ Each command triggers multi-step execution: AI handles token approvals + transac
 ## Demo Video
 
 <p align="center">
-  <a href="https://youtube.com/watch?v=YOUR_VIDEO_ID">
+  <a href="https://youtu.be/xLIJkVf5ZV4">
     <img src="https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo"/>
   </a>
 </p>
 
-**[Click to watch 4-minute demo →](https://youtube.com/watch?v=YOUR_VIDEO_ID)**
+**[Click to watch 4-minute demo →](https://youtu.be/xLIJkVf5ZV4)**
 
 ---
 
@@ -390,7 +390,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 | Resource | Link |
 |----------|------|
 | **Live Demo** | [agentify-mantle.vercel.app](https://agentify-mantle.vercel.app) |
-| **Demo Video** | [YouTube](https://youtube.com/watch?v=YOUR_VIDEO_ID) |
+| **Demo Video** | [YouTube](https://youtu.be/xLIJkVf5ZV4) |
 | **GitHub** | [Teckas-Technologies/agentify-mantle](https://github.com/Teckas-Technologies/agentify-mantle) |
 | **Twitter** | [@agentifyxyz](https://x.com/agentifyxyz) |
 | **Organization** | [Teckas Technologies](https://www.teckastechnologies.com/) |
