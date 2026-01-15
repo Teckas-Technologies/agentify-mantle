@@ -436,6 +436,12 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 
 ---
 
+## Compliance Declaration
+
+This project does not involve regulated assets or securities. All operations are conducted on public blockchain networks with full transparency. Users maintain complete custody of their assets at all times through their own wallets. Agentify AI is an interface layer that helps users interact with existing DeFi protocols - it does not issue tokens, hold user funds, or provide financial advice.
+
+---
+
 ## License
 
 MIT License © 2025 Agentify AI
